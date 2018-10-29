@@ -107,7 +107,7 @@ data_format='channels_first'))
     print('Model is created !')
     return model 
 def main():
-    x_train, x_test, y_train, y_test = load_data_cv('./train_64.npy')
+    x_train, x_test, y_train, y_test = load_data_cv('./numpy_64.npy')
     model = build_model()
     print("Starting training ...")
     train_loss = []

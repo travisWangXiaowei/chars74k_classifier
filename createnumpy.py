@@ -54,4 +54,4 @@ num_features = imageSize def plot_sample(x):
         
         i += 1
     return train_image, levels labels = pd.read_csv(LABELS, dtype = str) 
-np.save('train_64.npy', np.hstack((train, levels))) 
+np.save('numpy_64.npy', np.hstack((train, levels))) 
